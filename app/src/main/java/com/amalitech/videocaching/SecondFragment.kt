@@ -56,7 +56,7 @@ private var _binding: FragmentSecondBinding? = null
         exoPlayer = ExoPlayer.Builder(requireContext())
             .setMediaSourceFactory(DefaultMediaSourceFactory(mCacheDataSourceFactory)).build()
 
-        exoPlayer = ExoPlayer.Builder(requireContext()).build()
+        //exoPlayer = ExoPlayer.Builder(requireContext()).build()
 
         val videoUrl = "https://cdn.coverr.co/videos/coverr-skating-with-a-dog-1353/1080p.mp4"
         val videoUri = Uri.parse(videoUrl)
